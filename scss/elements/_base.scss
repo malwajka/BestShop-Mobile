@@ -12,7 +12,11 @@ a {
 
 .container {
   margin: 0 auto;
-  max-width: 375px;
+  width: 100%;
+  
+  @include notebook {
+    max-width: 1352px;
+  }
 }
 
 .logo__name {

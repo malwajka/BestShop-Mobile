@@ -6,7 +6,9 @@
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_statistics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_statistics.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +53,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609068399752</updated>
-      <workItem from="1609068401013" duration="4069000" />
+      <workItem from="1609068401013" duration="6433000" />
+      <workItem from="1609078848707" duration="2697000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
