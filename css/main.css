@@ -444,4 +444,61 @@ a {
   display: inline-block;
   margin: 0 32px;
 }
+
+.statistics {
+  margin-top: 50px;
+}
+.statistics__header {
+  font-size: 1.875rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 36px;
+}
+.statistics__single:nth-child(1) .statistics__circle {
+  background-color: #FB3B64;
+}
+.statistics__single:nth-child(1) .statistics__img {
+  top: 3px;
+  left: 48%;
+}
+.statistics__single:nth-child(2) .statistics__circle {
+  background-color: #08A6E4;
+}
+.statistics__single:nth-child(2) .statistics__img {
+  top: 14px;
+  left: 33%;
+}
+.statistics__single:nth-child(3) .statistics__circle {
+  background-color: #55DFB4;
+}
+.statistics__single:nth-child(3) .statistics__img {
+  top: 6px;
+  left: 49%;
+}
+.statistics__circle {
+  margin: 25px auto;
+  height: 63px;
+  width: 63px;
+  border-radius: 50%;
+  position: relative;
+}
+.statistics__img {
+  position: absolute;
+}
+.statistics__number {
+  font-size: 1.25rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.3725rem;
+  text-align: center;
+  margin-bottom: 19px;
+}
+.statistics__text {
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  color: #A5A5A5;
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
