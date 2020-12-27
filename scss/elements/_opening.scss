@@ -1,0 +1,33 @@
+.opening {
+  display: flex;
+  //justify-content: center;
+  //overflow: hidden;
+  flex-direction: column;
+
+  &__content {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  &__header {
+    font-family: $font-Raleway;
+    font-size: 2.1875rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+  }
+
+  &__text {
+    margin: 0 40px 0 50px;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: $font-OpenSans;
+    padding-bottom: 3.125rem;
+  }
+
+  &__image {
+    margin-top: 3.1875rem;
+    height: auto;
+    width: 220%;
+    transform: translateX(-28%); // Dlaczego ?
+  }
+}

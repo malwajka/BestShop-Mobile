@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-OpenSans;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 375px;
+}
+
+.logo__name {
+  font-family: $font-Raleway;
+  color: $primary-blue;
+  font-size: 2rem;
+  font-weight: 300;
+  display: block;
+  padding-left: 10px;
+}

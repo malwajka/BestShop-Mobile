@@ -1,0 +1,14 @@
+.btn {
+  font-weight: 700;
+  color: $color-white;
+  font-family: $font-OpenSans;
+}
+
+.opening__btn {
+  background-color: $primary-blue;
+  padding: 22px 92px 23px 92px;
+  border-radius: 40px;
+  box-shadow: 5px 10px 14px #07ACE629;
+  display: inline-block;
+  margin: 0 32px;
+}
