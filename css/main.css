@@ -434,6 +434,12 @@ a {
   width: 220%;
   transform: translateX(-28%);
 }
+@media (min-width: 792px) {
+  .opening__image {
+    width: 100%;
+    transform: none;
+  }
+}
 
 .btn {
   font-weight: 700;
@@ -453,12 +459,28 @@ a {
 .statistics {
   margin-top: 50px;
 }
+@media (min-width: 792px) {
+  .statistics {
+    margin-top: 100px;
+  }
+}
 .statistics__header {
   font-size: 1.875rem;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   text-align: center;
   margin: 0 36px;
+}
+.statistics__container {
+  margin: 0 auto;
+}
+@media (min-width: 792px) {
+  .statistics__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-top: 75px;
+  }
 }
 .statistics__single:nth-child(1) .statistics__circle {
   background-color: #FB3B64;

@@ -1,11 +1,11 @@
 @mixin tablet {
   @media (min-width: 792px) {
-    @extend;
+    @content;
   }
 }
 
 @mixin notebook {
   @media (min-width: 1024px) {
-    @extend;
+    @content;
   }
 }

@@ -1,6 +1,10 @@
 .statistics {
   margin-top: 50px;
 
+  @include tablet {
+    margin-top: 100px;
+  }
+
   &__header {
     font-size: 1.875rem;
     font-family: $font-Raleway;
@@ -10,7 +14,14 @@
   }
 
   &__container {
+    margin: 0 auto;
 
+    @include tablet {
+      display: flex;
+      justify-content: space-between;
+      max-width: 800px;
+      margin-top: 75px;
+    }
   }
 
   &__single {
