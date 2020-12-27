@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4c43d1c-3834-4b22-b649-3d4eca8af5fa" name="Default Changelist" comment="" />
+    <list default="true" id="d4c43d1c-3834-4b22-b649-3d4eca8af5fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/scss/generic/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/generic/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +29,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Malwina\Desktop\BestShop-Mobile\scss" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609068399752</updated>
-      <workItem from="1609068401013" duration="323000" />
+      <workItem from="1609068401013" duration="704000" />
     </task>
     <servers />
   </component>
