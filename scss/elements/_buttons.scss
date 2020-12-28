@@ -2,6 +2,7 @@
   font-weight: 700;
   color: $color-white;
   font-family: $font-OpenSans;
+  display: inline-block;
 }
 
 .opening__btn {
@@ -11,4 +12,29 @@
   box-shadow: 5px 10px 14px #07ACE629;
   display: inline-block;
   margin: 0 32px;
+}
+
+.pricing__btn {
+  border-radius: 18px;
+  position: relative;
+  padding: 16px 57px;
+}
+
+.btn__basic {
+  background-color: $color-red;
+  top: 25px;
+  left: 71px;
+}
+
+.btn__professional {
+  background-color: $primary-blue;
+  box-shadow: 5px 10px 14px #07ACE629;
+  top:25px;
+  left: 94px;
+}
+
+.btn__premium {
+  background-color: $color-green;
+  top: 25px;
+  left: 71px;
 }

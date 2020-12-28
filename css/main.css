@@ -689,10 +689,111 @@ a {
   margin-left: -35px;
 }
 
+.pricing__container {
+  margin-top: 50px;
+}
+.pricing__title {
+  font-size: 2.25rem;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.pricing__boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricing__box {
+  border-radius: 18px;
+  border: 1px solid;
+  margin-bottom: 54px;
+  padding: 25px 10px 0 10px;
+}
+.pricing__box:last-of-type {
+  margin-bottom: 0;
+}
+.pricing__box--normal {
+  width: 293px;
+}
+.pricing__box--basic {
+  border-color: #FB3B64;
+}
+.pricing__box--professional {
+  width: 339px;
+  border-color: #08A6E4;
+  box-shadow: 5px 10px 27px #07ACE629;
+}
+.pricing__box--premium {
+  border-color: #55DFB4;
+}
+.pricing__box--content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricing__details {
+  text-align: center;
+  margin-right: 23px;
+}
+.pricing__type {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #13253B;
+}
+.pricing__price {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 2.875rem;
+}
+.pricing__price--basic {
+  color: #FB3B64;
+}
+.pricing__price--professional {
+  color: #08A6E4;
+}
+.pricing__price--premium {
+  color: #55DFB4;
+}
+.pricing__limited {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #13253B;
+}
+.pricing__items {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+.pricing__item {
+  margin-bottom: 20px;
+}
+.pricing__item:last-of-type {
+  margin-bottom: 0;
+}
+.pricing__item::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background-image: url("../assets/Ckechmark-1.svg");
+  margin-right: 10px;
+}
+.pricing__item--not::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background-image: url("../assets/Close.svg");
+}
+
 .btn {
   font-weight: 700;
   color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
+  display: inline-block;
 }
 
 .opening__btn {
@@ -702,5 +803,30 @@ a {
   box-shadow: 5px 10px 14px #07ACE629;
   display: inline-block;
   margin: 0 32px;
+}
+
+.pricing__btn {
+  border-radius: 18px;
+  position: relative;
+  padding: 16px 57px;
+}
+
+.btn__basic {
+  background-color: #FB3B64;
+  top: 25px;
+  left: 71px;
+}
+
+.btn__professional {
+  background-color: #08A6E4;
+  box-shadow: 5px 10px 14px #07ACE629;
+  top: 25px;
+  left: 94px;
+}
+
+.btn__premium {
+  background-color: #55DFB4;
+  top: 25px;
+  left: 71px;
 }
 /*# sourceMappingURL=main.css.map */

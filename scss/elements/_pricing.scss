@@ -1,0 +1,127 @@
+.pricing {
+
+  &__container {
+    margin-top: 50px;
+  }
+
+  &__title {
+    font-size: 2.25rem;
+    font-weight: 400;
+    font-family: $font-Raleway;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  &__boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__box {
+    border-radius: 18px;
+    border: 1px solid;
+    margin-bottom: 54px;
+    padding: 25px 10px 0 10px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  &__box--normal {
+    width: 293px;
+  }
+
+  &__box--basic {
+    border-color: $color-red;
+  }
+
+  &__box--professional {
+    width: 339px;
+    border-color: $primary-blue;
+    box-shadow: 5px 10px 27px #07ACE629;
+  }
+
+  &__box--premium {
+    border-color: $color-green;
+  }
+
+  &__box--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__details {
+    text-align: center;
+    margin-right: 23px;
+
+  }
+
+  &__type {
+    font-family: $font-Raleway;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: $color-limited;
+  }
+
+  &__price {
+    font-family: $font-OpenSans;
+    font-weight: 300;
+    font-size: 2.875rem;
+  }
+
+  &__price--basic {
+    color: $color-red;
+  }
+
+  &__price--professional {
+    color: $primary-blue;
+  }
+
+  &__price--premium {
+    color: $color-green;
+  }
+
+  &__limited {
+    font-family: $font-Raleway;
+    font-size: .75rem;
+    font-weight: 700;
+    color: $color-limited;
+  }
+
+  &__items {
+    font-family: $font-OpenSans;
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+
+  &__item {
+    margin-bottom: 20px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 11px;
+      height: 11px;
+      background-image: url("../assets/Ckechmark-1.svg");
+      margin-right: 10px;
+    }
+  }
+
+  &__item--not {
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 11px;
+      height: 11px;
+      background-image: url("../assets/Close.svg");
+    }
+  }
+}
