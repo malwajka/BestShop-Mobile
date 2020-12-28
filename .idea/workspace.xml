@@ -6,8 +6,7 @@
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_pricing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,8 @@
       <workItem from="1609068401013" duration="6433000" />
       <workItem from="1609078848707" duration="24821000" />
       <workItem from="1609142516380" duration="19912000" />
-      <workItem from="1609167828685" duration="6381000" />
+      <workItem from="1609167828685" duration="6884000" />
+      <workItem from="1609175194235" duration="3270000" />
     </task>
     <servers />
   </component>

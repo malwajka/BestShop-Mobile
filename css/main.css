@@ -864,6 +864,35 @@ a {
   background-image: url("../assets/Close.svg");
 }
 
+.footer {
+  height: 89px;
+  box-shadow: 0px -5px 40px #00000029;
+  background-color: #F7F7F7;
+}
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.footer__copyright {
+  font-size: 0.6875rem;
+  color: #A5A5A5;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 17px;
+}
+.footer__icons {
+  margin-right: 30px;
+}
+.footer__icons a:last-of-type {
+  margin-left: 20px;
+}
+
+.logo__name--footer {
+  font-size: 1.625rem;
+  margin-left: 7px;
+}
+
 .btn {
   font-weight: 700;
   color: #FFFFFF;
