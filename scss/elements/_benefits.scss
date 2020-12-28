@@ -1,0 +1,98 @@
+.benefits {
+  background-color: $color-light-grey;
+
+  &__container {
+    padding: 40px 30px;
+  }
+
+  &__single {
+    background-color: $color-white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 40px 21px 30px 21px;
+    border: 1px solid $color-border-benefits;
+  }
+
+  &__notebook {
+    width: 192px;
+    position: relative;
+    z-index: 2;
+  }
+
+  &__phone {
+    width: 175px;
+    position: relative;
+    z-index: 2;
+  }
+
+  &__title {
+    font-family: $font-OpenSans;
+    font-weight: 400;
+    font-size: 1.875rem;
+    margin-bottom: 20px;
+
+  }
+
+  &__text {
+    font-family: $font-OpenSans;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+  }
+
+  &__single--notebook {
+
+    .benefits__image {
+      margin-bottom: 26px;
+      position: relative;
+
+      &::before {
+        content: "";
+        width: 90px;
+        height: 90px;
+        background-color: $color-red;
+        position: absolute;
+        border-radius: 40px;
+        transform: rotate(45deg);
+        top: -20px;
+        left: 105px;
+      }
+    }
+  }
+
+  &__single--phone {
+
+    .benefits__image {
+      margin-bottom: 26px;
+      position: relative;
+
+      &::before {
+        content: "";
+        width: 131px;
+        height: 131px;
+        background-color: $primary-blue;
+        border-radius: 50%;
+        position: absolute;
+        top: -10px;
+
+      }
+    }
+  }
+
+  &__single--image {
+    background-color: $color-green;
+    margin-top: -40px;
+
+
+    img {
+      width: 295px;
+      margin-left: -35px;
+      margin-top: 50px;
+    }
+  }
+}
+
