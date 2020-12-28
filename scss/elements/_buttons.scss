@@ -23,18 +23,31 @@
 .btn__basic {
   background-color: $color-red;
   top: 25px;
-  left: 71px;
+  left: 60px;
+
+  @include notebook {
+    left: 65px;
+  }
 }
 
 .btn__professional {
   background-color: $primary-blue;
   box-shadow: 5px 10px 14px #07ACE629;
   top:25px;
-  left: 94px;
+  left: 80px;
+
+  @include notebook {
+    left: 75px;
+    top: 45px;
+  }
 }
 
 .btn__premium {
   background-color: $color-green;
   top: 25px;
-  left: 71px;
+  left: 60px;
+
+  @include notebook {
+    left: 65px;
+  }
 }

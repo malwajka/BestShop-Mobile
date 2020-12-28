@@ -1,7 +1,16 @@
 .pricing {
+  display: flex;
+  justify-content: center;
 
   &__container {
-    margin-top: 50px;
+    margin: 50px auto;
+
+    @include notebook {
+      margin: 100px auto 75px auto;
+      display: flex;
+      flex-direction: column;
+      max-width: 1024px;
+    }
   }
 
   &__title {
@@ -16,6 +25,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @include notebook {
+      flex-direction: row;
+    }
   }
 
   &__box {
@@ -26,11 +39,19 @@
 
     &:last-of-type {
       margin-bottom: 0;
+
+      @include notebook {
+        margin-bottom: 54px;
+      }
     }
   }
 
   &__box--normal {
     width: 293px;
+
+    @include notebook {
+      width: 372px;
+    }
   }
 
   &__box--basic {
@@ -41,6 +62,13 @@
     width: 339px;
     border-color: $primary-blue;
     box-shadow: 5px 10px 27px #07ACE629;
+
+    @include notebook {
+      width: 405px;
+      height: 430px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
   }
 
   &__box--premium {
@@ -51,6 +79,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include notebook {
+      flex-direction: column;
+    }
   }
 
   &__details {
@@ -64,6 +96,10 @@
     font-size: 1.25rem;
     font-weight: 700;
     color: $color-limited;
+
+    @include notebook {
+      margin-bottom: 14px;
+    }
   }
 
   &__price {
@@ -74,6 +110,10 @@
 
   &__price--basic {
     color: $color-red;
+
+    @include notebook {
+      margin-bottom: 70px;
+    }
   }
 
   &__price--professional {
@@ -89,12 +129,32 @@
     font-size: .75rem;
     font-weight: 700;
     color: $color-limited;
+
+    @include notebook {
+      margin-top: 5px;
+    }
+  }
+
+  &__limited--professional {
+    @include notebook {
+      margin-bottom: 60px;
+    }
+  }
+
+  &__limited--premium {
+    @include notebook {
+      margin-bottom: 50px;
+    }
   }
 
   &__items {
     font-family: $font-OpenSans;
     font-weight: 400;
     font-size: 0.875rem;
+
+    @include notebook {
+      text-align: center;
+    }
   }
 
   &__item {
@@ -102,6 +162,10 @@
 
     &:last-of-type {
       margin-bottom: 0;
+
+      @include notebook {
+        margin-bottom: 30px;
+      }
     }
 
     &::before {
