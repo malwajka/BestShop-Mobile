@@ -529,7 +529,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   margin-bottom: 40px;
   padding: 40px 21px 30px 21px;
   border: 1px solid #E8E9ED;
@@ -557,7 +556,7 @@ a {
   line-height: 1.375rem;
 }
 .benefits__single--notebook .benefits__image {
-  margin-bottom: 26px;
+  margin: 26px auto;
   position: relative;
 }
 .benefits__single--notebook .benefits__image::before {
@@ -572,7 +571,7 @@ a {
   left: 105px;
 }
 .benefits__single--phone .benefits__image {
-  margin-bottom: 26px;
+  margin: 26px auto;
   position: relative;
 }
 .benefits__single--phone .benefits__image::before {
@@ -587,11 +586,14 @@ a {
 .benefits__single--image {
   background-color: #55DFB4;
   margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .benefits__single--image img {
   width: 295px;
-  margin-left: -35px;
   margin-top: 50px;
+  margin-left: -35px;
 }
 
 .btn {

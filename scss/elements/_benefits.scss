@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    //align-items: center;
     margin-bottom: 40px;
     padding: 40px 21px 30px 21px;
     border: 1px solid $color-border-benefits;
@@ -47,7 +47,7 @@
   &__single--notebook {
 
     .benefits__image {
-      margin-bottom: 26px;
+      margin: 26px auto;
       position: relative;
 
       &::before {
@@ -67,7 +67,7 @@
   &__single--phone {
 
     .benefits__image {
-      margin-bottom: 26px;
+      margin: 26px auto;
       position: relative;
 
       &::before {
@@ -86,12 +86,15 @@
   &__single--image {
     background-color: $color-green;
     margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
     img {
       width: 295px;
-      margin-left: -35px;
       margin-top: 50px;
+      margin-left: -35px;
     }
   }
 }
