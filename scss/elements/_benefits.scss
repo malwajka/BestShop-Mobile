@@ -3,6 +3,7 @@
 
   &__container {
     padding: 40px 30px;
+    max-width: 1124px;
   }
 
   &__single {
@@ -21,12 +22,21 @@
     width: 192px;
     position: relative;
     z-index: 2;
+
+    @include notebook {
+      width: 386px;
+
+    }
   }
 
   &__phone {
     width: 175px;
     position: relative;
     z-index: 2;
+
+    @include notebook {
+      width: 426px;
+    }
   }
 
   &__title {
@@ -42,13 +52,43 @@
     font-weight: 400;
     font-size: 0.875rem;
     line-height: 1.375rem;
+
+    @include notebook {
+      font-size: 1rem;
+    }
   }
 
   &__single--notebook {
 
+    @include notebook {
+      flex-direction: row-reverse;
+      align-items: center;
+
+    }
+
+    .benefits__box {
+
+      @include notebook {
+        margin-right: 100px;
+
+        &::after {
+          content: "";
+          background-color: $color-red;
+          width: 327px;
+          height: 4px;
+          display: block;
+          margin-top: 50px;
+        }
+      }
+    }
+
     .benefits__image {
       margin: 26px auto;
       position: relative;
+
+      @include notebook {
+        margin-right: 71px;
+      }
 
       &::before {
         content: "";
@@ -60,15 +100,48 @@
         transform: rotate(45deg);
         top: -20px;
         left: 105px;
+
+        @include notebook {
+          width: 180px;
+          height: 180px;
+          left: 205px;
+          top: -25px;
+        }
       }
     }
   }
 
   &__single--phone {
 
+    @include notebook {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .benefits__box {
+
+      @include notebook {
+
+        &::after {
+          content: "";
+          background-color: $primary-blue;
+          width: 327px;
+          height: 4px;
+          display: block;
+          margin-top: 50px;
+        }
+      }
+    }
+
     .benefits__image {
       margin: 26px auto;
       position: relative;
+
+      @include notebook {
+        margin-right: 121px;
+        margin-left: 71px;
+
+      }
 
       &::before {
         content: "";
@@ -79,7 +152,25 @@
         position: absolute;
         top: -10px;
 
+        @include notebook {
+          width: 320px;
+          height: 320px;
+        }
+
       }
+    }
+  }
+
+  &__double {
+
+    @include notebook {
+      display: flex;
+    }
+  }
+
+  .benefits__single--third {
+    @include notebook {
+      max-width: 620px;
     }
   }
 
@@ -90,6 +181,11 @@
     justify-content: center;
     align-items: center;
 
+    @include notebook {
+      margin-top: 0;
+      margin-left: 60px;
+      flex-grow: 1;
+    }
 
     img {
       width: 295px;
