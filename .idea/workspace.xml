@@ -6,8 +6,7 @@
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/settings/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/settings/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_contact.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -57,6 +57,7 @@
       <workItem from="1609142516380" duration="19912000" />
       <workItem from="1609167828685" duration="6884000" />
       <workItem from="1609175194235" duration="14751000" />
+      <workItem from="1609231748403" duration="10518000" />
     </task>
     <servers />
   </component>
